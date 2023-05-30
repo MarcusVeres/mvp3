@@ -5,7 +5,7 @@ const WebsiteShowcase = () => {
   const [width, setWidth] = useState(340);
   const [height, setHeight] = useState(600);
 
-  const handleButtonClick = (newWidth, newHeight) => {
+  const resizePreview = (newWidth, newHeight) => {
     setWidth(newWidth);
     setHeight(newHeight);
   };
@@ -15,11 +15,11 @@ const WebsiteShowcase = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <div>
-        <button onClick={() => handleButtonClick(340,600)}>Phone</button>
-        <button onClick={() => handleButtonClick(480,700)}>Tablet</button>
-        <button onClick={() => handleButtonClick(840,500)}>Laptop</button>
-        <button onClick={() => handleButtonClick(1080,640)}>Desktop</button>
-        <button onClick={() => handleButtonClick(1600,768)}>Widescreen</button>
+        <button onClick={() => resizePreview(340,600)}>Phone</button>
+        <button onClick={() => resizePreview(480,700)}>Tablet</button>
+        <button onClick={() => resizePreview(840,500)}>Laptop</button>
+        <button onClick={() => resizePreview(1080,640)}>Desktop</button>
+        <button onClick={() => resizePreview(1600,768)}>Widescreen</button>
       </div>
       <iframe
         src="https://marcusveres.github.io/web-layouts/marketing-app.html" // "http://example.com"
