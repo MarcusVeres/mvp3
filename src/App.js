@@ -24,8 +24,8 @@ function App() {
     */
     <div className="App">
       <header className="App-header">
-        <WebsiteShowcase />
         <img src={logo} className="App-logo" alt="logo" />
+        <WebsiteShowcase />
       </header>
     </div>
   );
