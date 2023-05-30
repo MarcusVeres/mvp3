@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const WebsiteShowcase = () => {
-  const [width, setWidth] = useState(800);
+  const [width, setWidth] = useState(960);
 
   const handleButtonClick = (newWidth) => {
     setWidth(newWidth);
@@ -10,7 +10,7 @@ const WebsiteShowcase = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <iframe
-        src="http://example.com"
+        src="https://marcusveres.github.io/web-layouts/marketing-app.html" // "http://example.com"
         width={width}
         height="500"
         style={{ border: 'none' }}
@@ -18,10 +18,11 @@ const WebsiteShowcase = () => {
       />
 
       <div>
-        <button onClick={() => handleButtonClick(800)}>800px</button>
-        <button onClick={() => handleButtonClick(600)}>600px</button>
-        <button onClick={() => handleButtonClick(400)}>400px</button>
-        <button onClick={() => handleButtonClick(200)}>200px</button>
+        <button onClick={() => handleButtonClick(320)}>Phone</button>
+        <button onClick={() => handleButtonClick(640)}>Tablet</button>
+        <button onClick={() => handleButtonClick(960)}>Laptop</button>
+        <button onClick={() => handleButtonClick(1280)}>Desktop</button>
+        <button onClick={() => handleButtonClick(1440)}>Widescreen</button>
       </div>
     </div>
   );
