@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import WebsiteShowcase from "./WebsiteShowcase";
 
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,6 +19,13 @@ function App() {
         >
           Learn React
         </a>
+      </header>
+    </div>
+    */
+    <div className="App">
+      <header className="App-header">
+        <WebsiteShowcase />
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
