@@ -14,7 +14,7 @@ const WebsiteShowcase = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <div>
+      <div class="fixed top-0 right-0">
         <button onClick={() => resizePreview(340,600)}>Phone</button>
         <button onClick={() => resizePreview(480,700)}>Tablet</button>
         <button onClick={() => resizePreview(840,500)}>Laptop</button>
