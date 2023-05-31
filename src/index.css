@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply text-gray-400 bg-cover bg-center bg-no-repeat bg-slate-800 /*bg-[url('./assets/background.webp')]*/;
+        @apply text-gray-400 bg-cover bg-center bg-no-repeat bg-[url('../public/bg.webp')];
     }
     p {
         @apply mb-2;
