@@ -22,11 +22,16 @@ function App() {
       </header>
     </div>
     */
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <WebsiteShowcase />
-      </header>
+        </header>
+        </div>
+        */
+    <div className="flex justify-center w-screen h-screen flex-center">
+      <WebsiteShowcase />
     </div>
   );
 }
