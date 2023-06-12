@@ -31,9 +31,9 @@ function App() {
         </header>
         </div>
         */
-    <div className="flex justify-center w-screen h-screen flex-center">
-      <LandingPage />
-    </div>
+    // <div className="flex justify-center w-screen h-screen flex-center">
+    <LandingPage />
+    // </div>
   );
 }
 
