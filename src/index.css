@@ -1,67 +1,305 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply transition-all duration-300 ease-in-out;
+    }
+
+    a {
+        @apply text-blue-500;
+    }
+    a:hover {
+        @apply text-blue-300;
+    }
+
+    body {
+        /* @apply h-full text-gray-800; */
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+
+    }
+
+    h1 {
+        @apply pt-6 text-6xl font-light;
+    }
+
+    /* about, build, contact */
+    h2 {
+        /* @apply pt-6 text-3xl font-semibold tracking-wide uppercase; */
+        @apply pt-6 text-3xl font-semibold tracking-wide;
+    }
+
+    /* websites, graphic design, fast-loading */
+    h3 {
+        /* @apply pt-5 text-5xl font-light; */
+    }
+
+    /* caption, or subtitle, for websites, graphic design, fast loading */
+    h4 {
+
+    }
+
+    html {
+        /* @apply h-full; */
+    }
+
+    /* nav ul {
+        @apply flex items-center justify-end;
+    }
+    nav ul li {
+
+    }
+    nav ul li a {
+        @apply p-1 text-lg font-bold tracking-wide text-transparent uppercase sm:text-base sm:p-2 md:p-4 bg-clip-text bg-gradient-to-br from-pink-300 to-pink-500;
+    }
+    nav ul li a:hover {
+        @apply from-blue-100 to-blue-300;
+    } */
+
+    /* regular body copy */
+    p {
+        /* @apply p-2 pt-4 text-lg; */
+    }
+
+    /* --- EDITOR JS */
+    /* --- WARNING! These styles may get purged... make sure they're forced to get exported. */
+    
+    #editorjs-content h1,h2,h3,h4,h5,h6 {
+        @apply font-light lg:pb-2;
+    }
+    #editorjs-content h2 {
+        @apply text-3xl lg:text-4xl;
+    }
+    #editorjs-content h3 {
+        @apply text-2xl lg:text-3xl;
+    }
+    #editorjs-content h4 {
+        @apply text-xl lg:text-2xl;
+    }
+    #editorjs-content h5 {
+        @apply text-lg lg:text-xl;
+    }
+    #editorjs-content img {
+        @apply w-full mt-3 rounded shadow-lg lg:mt-4;
+    }
+    #editorjs-content p {
+        @apply pt-3 lg:pt-4;
+    }
+    
+    /* --- PORTFOLIO CARDS */
+    /* --- WARNING! These styles may get purged... make sure they're forced to get exported. */
+
+    .card-zoom {
+        @apply relative flex items-center justify-center overflow-hidden border border-white rounded-lg shadow-md border-opacity-10;
+    }
+
+    .card-zoom-image {
+        @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+    }
+
+    .card-zoom-text {
+        @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
+    }
+
+    .card-zoom:hover .card-zoom-image {
+        @apply scale-150;
+    }
+
+    .card-zoom:hover .card-zoom-text {
+        @apply scale-100;
+    }
+    
+}
 
 @layer components {
 
-  .pane {
-      @apply p-10 pb-12 text-gray-100 bg-gray-900 border border-gray-600 bg-opacity-30 backdrop-filter backdrop-blur-md;
-  }
+    /* TODO :: make this the new glass, and update references */
+    .glass-only {
+        @apply bg-gray-900 border border-gray-600 bg-opacity-30 backdrop-filter backdrop-blur-md;
+    }
+    .glass {
+        @apply p-10 m-10 text-gray-100 bg-gray-900 border border-gray-600 bg-opacity-30 backdrop-filter backdrop-blur-md;
+    }
+    .pane {
+        @apply p-10 pb-12 text-gray-100 bg-gray-900 border border-gray-600 bg-opacity-30 backdrop-filter backdrop-blur-md;
+    }
+
+    /* moonlit old design */ 
+
+    /* ---- */
+/* 
+    .container {
+        @apply max-w-6xl p-10 mx-auto;
+    } */
+
+    /* Our Business */
+    .mlit-services li {
+        @apply flex flex-col items-center justify-center mt-20 md:flex-row;
+    }
+    .mlit-services li:nth-child(2n) {
+        @apply md:flex-row-reverse;
+    }
+
+    /* Sticky */
+    .mlit-sticky-header,
+    .mlit-sticky-header-bottom {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 11;
+    }
+    .mlit-sticky-header-bottom {
+        bottom: 0;
+        top: inherit;
+    }
+
 }
 
 @layer utilities {
 
-  .aspect-chonk {
-      aspect-ratio: 0.85/1;
-  }
+    .aspect-chonk {
+        aspect-ratio: 0.85/1;
+    }
 
-  .aspect-golden {
-      aspect-ratio: 1.618/1;
-  }
+    .aspect-golden {
+        aspect-ratio: 1.618/1;
+    }
 
-  .aspect-portrait {
-      aspect-ratio: 1/1.618;
-  }
+    .aspect-portrait {
+        aspect-ratio: 1/1.618;
+    }
 
-  .aspect-square {
-      aspect-ratio: 1/1;
-  }
+    .aspect-square {
+        aspect-ratio: 1/1;
+    }
 
-  .rainbow {
-      background-image: linear-gradient( 135deg, #1e75bb, #852bbb, #ad0095, #be0070, #c0004e, #c8193f, #cd2e2e, #ce421b, #dd6212, #e88004, #f09f00, #f5bd0b);
-  }
+    /* */
+
+    #menu-toggle:checked + #menu {
+        @apply flex-col translate-y-0 opacity-100 max-h-72 lg:flex-row;
+        /* @apply flex-col translate-y-0 opacity-100 max-h-144 lg:flex-row; */
+        /* ROBBINS */
+    }
+
+    /* */
+    
+    .rainbow {
+        background-image: linear-gradient( 135deg, #1e75bb, #852bbb, #ad0095, #be0070, #c0004e, #c8193f, #cd2e2e, #ce421b, #dd6212, #e88004, #f09f00, #f5bd0b);
+    }
+    
+    /* */
+    
+    .svg-child-icons,
+    .svg-child-icons-smol {
+        @apply select-none;
+        -webkit-touch-callout:none;
+    }
+
+    .svg-child-icons svg,
+    .svg-child-icons-smol svg {
+        @apply absolute transition-all;
+        max-width : 8rem;
+        max-height: 8rem;
+    }
+    .svg-child-icons li:active svg,
+    .svg-child-icons li:hover svg {
+        @apply scale-[60%] -translate-y-10;
+    }
+    .svg-child-icons-smol li:active svg,
+    .svg-child-icons-smol li:hover svg {
+        @apply scale-[50%] -translate-y-10;
+    }
+    
+    .svg-child-icons-tr svg {
+        @apply absolute transition-all;
+        max-width : 8rem;
+        max-height: 8rem;
+    }
+    .svg-child-icons-tr li:active svg,
+    .svg-child-icons-tr li:hover svg {
+        @apply scale-[32%] translate-x-24 -translate-y-24;
+    }
+    
+    /* */
 
 
-  /* Old Site Landing Page */
-  .project-grid {
+    /* Old Site Landing Page */
+    .project-grid {
 
-  }
-  .project-grid > * {
-      @apply p-8 transition-all duration-300 ease-in-out bg-gray-800 border border-gray-400 rounded-xl border-opacity-80;
-  }
-  .project-grid > *:hover {
-      @apply bg-gray-600;
-  }
+    }
+    .project-grid > * {
+        @apply p-8 transition-all duration-300 ease-in-out bg-gray-800 border border-gray-400 rounded-xl border-opacity-80;
+    }
+    .project-grid > *:hover {
+        @apply bg-gray-600;
+    }
 
+
+    /* Theming the preview for the form */
+    
+    .preview-wrapper a {
+        @apply text-blue-500;
+    }
+    .preview-wrapper .checklist-wrapper {
+        @apply border border-gray-500 rounded-lg shadow-sm bg-gray-50;
+    }
+    .preview-wrapper h1,
+    .preview-wrapper h2,
+    .preview-wrapper h3,
+    .preview-wrapper h4,
+    .preview-wrapper h5,
+    .preview-wrapper h6 {
+        @apply font-bold;
+    }
+    .preview-wrapper ol, 
+    .preview-wrapper ul { 
+        @apply list-disc list-inside;
+    }
+    .preview-wrapper ol {
+        @apply list-decimal;
+    }
+    .preview-wrapper ol li,
+    .preview-wrapper ul li {
+        @apply my-1 bg-blue-200;
+    }
+    .preview-wrapper p {
+        @apply py-2;
+    }
+    .preview-wrapper table {
+        @apply w-full divide-x divide-y divide-gray-200 rounded;
+    }
+
+    /* CONTACT BUTTON */
+
+    .background-animate {
+        /* background-size: 400%; */
+    }
+    .background-animate:hover,
+    .background-animate:group-hover {
+        -webkit-animation: AnimationName 3s ease infinite;
+        -moz-animation: AnimationName 3s ease infinite;
+        animation: AnimationName 3s ease infinite;
+    }
+    
+    @keyframes AnimationName {
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    }
 
 }
 
-.card-zoom {
-  @apply relative flex items-center justify-center overflow-hidden border border-white rounded-lg shadow-md border-opacity-10;
-}
 
-.card-zoom-image {
-  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
-}
-
-.card-zoom-text {
-  @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
-}
-
-.card-zoom:hover .card-zoom-image {
-  @apply scale-150;
-}
-
-.card-zoom:hover .card-zoom-text {
-  @apply scale-100;
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
