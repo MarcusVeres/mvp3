@@ -67,6 +67,8 @@ const data = [
       "Provided passport photos, photo editing and headshot portraits. ",
     ],
     Company: "Japan Camera",
+    Start: "2007-11",
+    End: "2009-05",
     Keywords: ["Retail / Sales", "Graphic Design", "Photography"],
     Title: "Store Associate",
   },
@@ -258,9 +260,27 @@ const data = [
 ];
 
 const Jobs = () => {
+  // sort the data before using it
+  /*
+  const sortedData = data.sort((a, b) => {
+    const startDateA = new Date(a.Start);
+    const startDateB = new Date(b.Start);
+    return startDateB - startDateA; // Descending order
+  });
+  */
+  const sortedData = [...data].sort((a, b) => {
+    if (a.End === "Present") return -1;
+    if (b.End === "Present") return 1;
+
+    const startDateA = new Date(a.Start);
+    const startDateB = new Date(b.Start);
+
+    return startDateB - startDateA; // Descending order
+  });
+
   return (
     <>
-      {data.map((job) => (
+      {sortedData.map((job) => (
         <div key={job.Name} className="container mx-auto my-8 mt-16 lg:mt-44">
           <div className="flex flex-col lg:mt-16 lg:flex-row">
             <div className="w-full lg:w-[38%] flex flex-col justify-between">
