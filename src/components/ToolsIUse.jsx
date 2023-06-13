@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/island-translucent.webp";
+import Tools from "../components/Tools";
 
 const ToolsIUse = () => {
   return (
@@ -11,7 +12,7 @@ const ToolsIUse = () => {
         <h2 className="text-4xl font-extrabold tracking-tight text-left border-b border-white md:pb-4 xl:text-6xl border-opacity-20">
           Tools I Use
         </h2>
-        .. template "tools". ..
+        <Tools></Tools>
       </div>
     </section>
   );

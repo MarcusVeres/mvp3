@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/bg-phones.webp"; // import the image
+import Things from "../components/Things";
 
 const ThingsIDo = () => {
   return (
@@ -12,7 +13,7 @@ const ThingsIDo = () => {
         <h2 className="pb-4 text-4xl font-extrabold tracking-tight text-left text-gray-300 border-b border-white xl:text-6xl border-opacity-20">
           Things I Do
         </h2>
-        .. template "things". ..
+        <Things></Things>
       </div>
     </section>
   );

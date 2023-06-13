@@ -1,5 +1,7 @@
 import React from "react";
 
+import Jobs from "../components/Jobs";
+
 const WorkExperience = () => {
   return (
     <section className="pt-8 pb-20 bg-gray-900">
@@ -7,7 +9,7 @@ const WorkExperience = () => {
         <h2 className="-mb-4 text-4xl font-extrabold tracking-tight text-left border-b border-white xl:-mb-24 md:pb-4 xl:mt-16 xl:text-6xl border-opacity-20">
           Work Experience
         </h2>
-        .. template "jobs". ..
+        <Jobs></Jobs>
       </div>
     </section>
   );
