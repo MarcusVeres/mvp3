@@ -74,9 +74,9 @@ const Things = () => {
           key={thing.Title}
           className="relative group aspect-square group-hover:fill-green-500 fill-white fs_fill-[{{ $t.SvgColor }}]"
         >
-          {thing.Svg}
+          <thing.Svg />
           <div className="flex items-center justify-center w-full h-full transition-all duration-300 rounded-md">
-            {thing.Svg}
+            <thing.Svg />
             <div className="p-4 mx-8 text-lg font-medium text-center text-white uppercase transition-all duration-300 translate-y-12 bg-black rounded-sm opacity-0 group-hover:opacity-100 bg-opacity-20">
               <h3 className="">{thing.Title}</h3>
             </div>
