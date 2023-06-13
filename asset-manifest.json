@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/mvp3/static/css/main.bbc4f585.css",
-    "main.js": "/mvp3/static/js/main.a6bf1eba.js",
+    "main.css": "/mvp3/static/css/main.471f3ba8.css",
+    "main.js": "/mvp3/static/js/main.db8ef10d.js",
     "static/js/787.1254f2c8.chunk.js": "/mvp3/static/js/787.1254f2c8.chunk.js",
     "static/media/smile-transparent-no-crop.webp": "/mvp3/static/media/smile-transparent-no-crop.2345978120f2076123f4.webp",
     "static/media/bg-phones.webp": "/mvp3/static/media/bg-phones.5295b2f16bb144454de3.webp",
-    "static/media/bg.webp": "/mvp3/static/media/bg.79b55fc309d5b6ddcf2f.webp",
     "static/media/island-translucent.webp": "/mvp3/static/media/island-translucent.44edf12feb0891fe7c78.webp",
     "static/media/logo.png": "/mvp3/static/media/logo.1d02db02f61df85a92b6.png",
     "index.html": "/mvp3/index.html",
-    "main.bbc4f585.css.map": "/mvp3/static/css/main.bbc4f585.css.map",
-    "main.a6bf1eba.js.map": "/mvp3/static/js/main.a6bf1eba.js.map",
+    "main.471f3ba8.css.map": "/mvp3/static/css/main.471f3ba8.css.map",
+    "main.db8ef10d.js.map": "/mvp3/static/js/main.db8ef10d.js.map",
     "787.1254f2c8.chunk.js.map": "/mvp3/static/js/787.1254f2c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc4f585.css",
-    "static/js/main.a6bf1eba.js"
+    "static/css/main.471f3ba8.css",
+    "static/js/main.db8ef10d.js"
   ]
 }
