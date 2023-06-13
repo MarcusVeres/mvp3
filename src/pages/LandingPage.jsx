@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo from "./logo.png";
-import portrait from "./smile-transparent-no-crop.webp";
+import logo from "../assets/logo.png";
+import portrait from "../assets/smile-transparent-no-crop.webp";
 
 const LandingPage = () => {
   return (
@@ -83,7 +83,7 @@ const LandingPage = () => {
                         x="0px"
                         y="0px"
                         viewBox="0 0 66 66"
-                        enable-background="new 0 0 66 66"
+                        enableBackground="new 0 0 66 66"
                       >
                         <g>
                           <path d="M44.2,14.5h10.3L41.6,1.6v10.3C41.6,13.3,42.8,14.5,44.2,14.5z"></path>
@@ -112,11 +112,11 @@ const LandingPage = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
                 />
               </svg>
