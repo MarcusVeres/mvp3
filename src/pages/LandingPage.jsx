@@ -10,8 +10,8 @@ const LandingPage = () => {
   return (
     <div className="text-white bg-black bgx-gray-900">
       <Header></Header>
-      <Things></Things>
-      <Tools></Tools>
+      {/* <Things></Things> */}
+      {/* <Tools></Tools> */}
       <Jobs></Jobs>
       <Footer></Footer>
     </div>

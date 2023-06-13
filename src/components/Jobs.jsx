@@ -271,16 +271,21 @@ const Jobs = () => {
                   </h1>
                   <p className="pt-2 pr-8 text-xs text-gray-400 lg:text-sm lg:pt-20 xl:text-base">
                     {job.Start}
-                    {/*if thing.End } - {{ end }}{{ $j.End } */}
+                    {job.End && ` - ${job.End}`}
                   </p>
                 </div>
-                <ul className="flex flex-wrap mt-3 text-xs lg:-ml-1 lg:space-x-1 sm:text-sm lg:text-base">
-                  {/*{ range $k := $j.Keywords }*/}
-                  <li className="block px-2 py-0 mb-2 mr-1 text-sm font-light text-blue-300 duration-500 bg-transparent border border-blue-400 rounded-full lg:mr-0 lg:py-1 hover:bg-blue-600 hover:text-white hover:border-transparent">
-                    {/*{ $k }*/}
-                  </li>
-                  {/*{ end }*/}
-                </ul>
+                {job.Keywords && job.Keywords.length > 0 && (
+                  <ul className="flex flex-wrap mt-3 text-xs lg:-ml-1 lg:space-x-1 sm:text-sm lg:text-base">
+                    {job.Keywords.map((keyword, index) => (
+                      <li
+                        key={index}
+                        className="block px-2 py-0 mb-2 mr-1 text-sm font-light text-blue-300 duration-500 bg-transparent border border-blue-400 rounded-full lg:mr-0 lg:py-1 hover:bg-blue-600 hover:text-white hover:border-transparent"
+                      >
+                        {keyword}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
               <div className="w-[62%] bg-whitex bg-opacity-10 rounded flex items-end"></div>
             </div>
@@ -288,11 +293,13 @@ const Jobs = () => {
               <h3 className="pt-2 pb-2 text-2xl font-thin border-white lg:pt-4 lg:mt-4 lg:border-t lg:text-4xl border-opacity-20">
                 {job.Company}
               </h3>
-              <ul className="flex flex-col pt-2 text-base lg:pt-4 sm:text-lg gap-y-1 lg:text-xl">
-                {/*{ range $b := $j.Bullets }*/}
-                <li>• {/*{ $b }*/}</li>
-                {/*{ end }*/}
-              </ul>
+              {job.Bullets && job.Bullets.length > 0 && (
+                <ul className="flex flex-col pt-2 text-base lg:pt-4 sm:text-lg gap-y-1 lg:text-xl">
+                  {job.Bullets.map((bullet, index) => (
+                    <li key={index}>• {bullet}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         </div>
