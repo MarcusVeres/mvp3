@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/mvp3" element={<LandingPage />} />
         <Route path="/showcase" element={<WebsiteShowcase />} />
+        <Route path="/" element={<LandingPage />} />
       </Routes>
     </BrowserRouter>
   );
