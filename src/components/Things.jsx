@@ -72,7 +72,7 @@ const Things = () => {
       {thingsData.map((thing) => (
         <li
           key={thing.Title}
-          className="relative group aspect-square group-hover:fill-green-500 fill-white fs_fill-[{{ $t.SvgColor }}]"
+          className="relative group aspect-square group-hover:fill-green-500"
         >
           <thing.Svg />
           <div className="flex items-center justify-center w-full h-full transition-all duration-300 rounded-md">
