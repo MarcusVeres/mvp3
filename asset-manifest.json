@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mvp3/static/css/main.7848e517.css",
-    "main.js": "/mvp3/static/js/main.4e1c9635.js",
+    "main.css": "/mvp3/static/css/main.b97880bf.css",
+    "main.js": "/mvp3/static/js/main.acd7e36f.js",
     "static/js/787.1254f2c8.chunk.js": "/mvp3/static/js/787.1254f2c8.chunk.js",
     "static/media/shatters.jpg": "/mvp3/static/media/shatters.ecffae8ecca4cdeab410.jpg",
     "static/media/flowers.jpg": "/mvp3/static/media/flowers.8828fd90b1538062e766.jpg",
@@ -23,14 +23,15 @@
     "static/media/smile-transparent-no-crop.webp": "/mvp3/static/media/smile-transparent-no-crop.2345978120f2076123f4.webp",
     "static/media/bg-phones.webp": "/mvp3/static/media/bg-phones.5295b2f16bb144454de3.webp",
     "static/media/island-translucent.webp": "/mvp3/static/media/island-translucent.44edf12feb0891fe7c78.webp",
+    "static/media/island.webp": "/mvp3/static/media/island.3500db2d9f0c73b0038a.webp",
     "static/media/logo.png": "/mvp3/static/media/logo.1d02db02f61df85a92b6.png",
     "index.html": "/mvp3/index.html",
-    "main.7848e517.css.map": "/mvp3/static/css/main.7848e517.css.map",
-    "main.4e1c9635.js.map": "/mvp3/static/js/main.4e1c9635.js.map",
+    "main.b97880bf.css.map": "/mvp3/static/css/main.b97880bf.css.map",
+    "main.acd7e36f.js.map": "/mvp3/static/js/main.acd7e36f.js.map",
     "787.1254f2c8.chunk.js.map": "/mvp3/static/js/787.1254f2c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7848e517.css",
-    "static/js/main.4e1c9635.js"
+    "static/css/main.b97880bf.css",
+    "static/js/main.acd7e36f.js"
   ]
 }
