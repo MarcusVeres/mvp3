@@ -1,19 +1,36 @@
 {
   "files": {
-    "main.css": "/mvp3/static/css/main.471f3ba8.css",
-    "main.js": "/mvp3/static/js/main.db8ef10d.js",
+    "main.css": "/mvp3/static/css/main.7848e517.css",
+    "main.js": "/mvp3/static/js/main.4e1c9635.js",
     "static/js/787.1254f2c8.chunk.js": "/mvp3/static/js/787.1254f2c8.chunk.js",
+    "static/media/shatters.jpg": "/mvp3/static/media/shatters.ecffae8ecca4cdeab410.jpg",
+    "static/media/flowers.jpg": "/mvp3/static/media/flowers.8828fd90b1538062e766.jpg",
+    "static/media/trunk.jpg": "/mvp3/static/media/trunk.123fe037d3cb7e50bc84.jpg",
+    "static/media/pine.jpg": "/mvp3/static/media/pine.622ed01015871b0bc9e9.jpg",
+    "static/media/miki.jpg": "/mvp3/static/media/miki.4a220313ff62cf18423c.jpg",
+    "static/media/tunnel.jpg": "/mvp3/static/media/tunnel.3d5b1ee4f416cc6c8bb1.jpg",
+    "static/media/wall.jpg": "/mvp3/static/media/wall.ff726b12d0f1d797f1b9.jpg",
+    "static/media/streetlight.jpg": "/mvp3/static/media/streetlight.5fc6d3a84b5621ec5f6f.jpg",
+    "static/media/pipes.jpg": "/mvp3/static/media/pipes.efb2b407e7cc80e3d73b.jpg",
+    "static/media/grandpa.jpg": "/mvp3/static/media/grandpa.92015c843120552714c5.jpg",
+    "static/media/cardinal.jpg": "/mvp3/static/media/cardinal.23570f91f0a2534c5e49.jpg",
+    "static/media/fence.jpg": "/mvp3/static/media/fence.c1d92b03f76907026085.jpg",
+    "static/media/glow.jpg": "/mvp3/static/media/glow.0a27cf4adbf358f90dce.jpg",
+    "static/media/knob.jpg": "/mvp3/static/media/knob.973ada96923c117ddf29.jpg",
+    "static/media/lamp.jpg": "/mvp3/static/media/lamp.ae57087227cf1100555c.jpg",
+    "static/media/knife.jpg": "/mvp3/static/media/knife.ffab9f7bf6119ab43717.jpg",
+    "static/media/spade.jpg": "/mvp3/static/media/spade.4d5594a3e8247670a7db.jpg",
     "static/media/smile-transparent-no-crop.webp": "/mvp3/static/media/smile-transparent-no-crop.2345978120f2076123f4.webp",
     "static/media/bg-phones.webp": "/mvp3/static/media/bg-phones.5295b2f16bb144454de3.webp",
     "static/media/island-translucent.webp": "/mvp3/static/media/island-translucent.44edf12feb0891fe7c78.webp",
     "static/media/logo.png": "/mvp3/static/media/logo.1d02db02f61df85a92b6.png",
     "index.html": "/mvp3/index.html",
-    "main.471f3ba8.css.map": "/mvp3/static/css/main.471f3ba8.css.map",
-    "main.db8ef10d.js.map": "/mvp3/static/js/main.db8ef10d.js.map",
+    "main.7848e517.css.map": "/mvp3/static/css/main.7848e517.css.map",
+    "main.4e1c9635.js.map": "/mvp3/static/js/main.4e1c9635.js.map",
     "787.1254f2c8.chunk.js.map": "/mvp3/static/js/787.1254f2c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.471f3ba8.css",
-    "static/js/main.db8ef10d.js"
+    "static/css/main.7848e517.css",
+    "static/js/main.4e1c9635.js"
   ]
 }
