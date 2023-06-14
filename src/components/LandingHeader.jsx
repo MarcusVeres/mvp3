@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../assets/logo.png";
+import Logo from "../assets/logo.png";
 import portrait from "../assets/smile-transparent-no-crop.webp";
 import Socials from "../components/Socials";
 
@@ -38,7 +38,7 @@ const LandingHeader = () => {
               </div>
               <img
                 className="max-w-[200px] lg:max-w-[300px] mt-8 filter "
-                src={logo}
+                src={Logo}
                 alt="logo"
               />
             </div>

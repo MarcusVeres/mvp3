@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../components/SvgLogo";
 
 const Navigation = () => {
   return (
@@ -46,17 +46,9 @@ const Navigation = () => {
         <div className="container mx-auto max-w-[1800px] px-8 bg-blue-500x flex flex-row justify-end">
           <div className="block w-24 h-16 transition-opacity duration-700 ease-in-out bg-black border-b border-l border-r border-white rounded-b-full shadow-xl cursor-pointer lg:h-24 lg:w-28 bg-opacity-80 rounded-xl border-opacity-20 opacity-40 hover:opacity-100">
             <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden">
-              <img
-                className="max-w-[64px] lg:max-w-[100px] mx-auto pt-1"
-                src={Logo}
-                alt="Logo"
-              />
+              <Logo />
             </label>
-            <img
-              className="cursor-default hidden lg:block max-w-[64px] lg:max-w-[100px] mx-auto pt-1"
-              src={Logo}
-              alt="Logo"
-            />
+            <Logo />
           </div>
         </div>
       </div>
