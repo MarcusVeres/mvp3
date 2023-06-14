@@ -29,7 +29,7 @@ const PortfolioGrid = () => {
         </h1>
       </div> */}
       <a
-        href="http://google.com"
+        href="https://marcusveres.artstation.com/projects/QXWlNd"
         target="_blank"
         rel="noopener noreferrer"
         className="card-zoom md:col-span-2"
