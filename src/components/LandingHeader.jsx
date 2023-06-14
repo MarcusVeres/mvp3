@@ -5,8 +5,8 @@ import portrait from "../assets/smile-transparent-no-crop.webp";
 
 const LandingHeader = () => {
   return (
-    <section className="flex flex-col w-full xl:h-screen">
-      <div className="flex flex-col items-center xl:h-[80%] border-b border-gray-600 shadow-lg overflow-hidden bg-bottom bg-fixed bg-cover bg-[url('https://hdwallpaperim.com/wp-content/uploads/2017/08/22/413919-planet-Earth-space.jpg')]">
+    <section className="flex flex-col w-full 2xl:h-screen">
+      <div className="flex flex-col items-center lg:h-[60%] border-b border-gray-600 shadow-lg overflow-hidden bg-bottom bg-fixed bg-cover bg-[url('https://hdwallpaperim.com/wp-content/uploads/2017/08/22/413919-planet-Earth-space.jpg')]">
         <img
           className="-mb-10 w-full max-w-[600px]"
           src={portrait}
