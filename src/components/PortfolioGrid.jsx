@@ -42,7 +42,12 @@ const PortfolioGrid = () => {
           MODELING
         </h3> */}
       </a>
-      <div className="card-zoom aspect-golden">
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${pine})` }}
@@ -50,56 +55,101 @@ const PortfolioGrid = () => {
         {/* <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
           Photo
         </h3> */}
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${cardinal})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${grandpa})` }}
         ></div>
-      </div>
-      <div className="row-span-2 card-zoom">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="row-span-2 card-zoom"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${lamp})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${knob})` }}
         ></div>
-      </div>
-      <div className="row-span-2 card-zoom">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="row-span-2 card-zoom"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${fence})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${trunk})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${pipes})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${flowers})` }}
         ></div>
-      </div>
-      <div className="card-zoom md:col-span-2">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="md:col-span-2 card-zoom"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${knife})` }}
@@ -107,51 +157,86 @@ const PortfolioGrid = () => {
         {/* <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
           Case Study II
         </h3> */}
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${tunnel})` }}
         ></div>
-      </div>
-      <div className="row-span-2 card-zoom">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="row-span-2 card-zoom"
+      >
         <div
           className="card-zoom-image"
           style={{
             backgroundImage: `url(${streetlight})`,
           }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${wall})` }}
         ></div>
-      </div>
-      <div className="row-span-2 card-zoom">
+      </a>
+      <a
+        href="https://www.behance.net/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="row-span-2 card-zoom"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${spade})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${miki})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${glow})` }}
         ></div>
-      </div>
-      <div className="card-zoom aspect-golden">
+      </a>
+      <a
+        href="https://500px.com/p/marcusveres"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom aspect-golden"
+      >
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${shatters})` }}
         ></div>
-      </div>
+      </a>
     </div>
   );
 };
