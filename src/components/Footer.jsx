@@ -6,7 +6,7 @@ import Socials from "../components/Socials";
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center pt-6 pb-16 mt-0 overflow-hidden border-t border-white shadow-2xl border-opacity-30">
-      <div className="mx-auto -mt-[140px] shadow-2xl h-[100px] w-full shadow-blue-500/50"></div>
+      {/* <div className="mx-auto -mt-[140px] shadow-2xl h-[100px] w-full shadow-blue-500/50"></div> */}
 
       <div className="">
         <img
