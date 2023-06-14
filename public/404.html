@@ -27,6 +27,13 @@
     <title>Marcus Veres</title>
   </head>
   <body>
+
+    <!-- Redirect from 404.html to home page -->
+    <script>
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/'"></meta>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,15 +46,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
-    <!-- 
-      Modifies the current history entry, replacing the document at the provided URL in the history entry. This way, when you refresh the page you stay at the same location instead of being redirected to the homepage.
-    -->
-    <script>
-      if (sessionStorage.redirect) {
-        history.replaceState({}, "", sessionStorage.redirect);
-        delete sessionStorage.redirect;
-      }
-    </script>
   </body>
 </html>
