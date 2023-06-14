@@ -6,9 +6,9 @@ import portrait from "../assets/smile-transparent-no-crop.webp";
 const LandingHeader = () => {
   return (
     <section className="flex flex-col w-full 2xl:h-screen">
-      <div className="flex flex-col items-center lg:h-[60%] border-b border-gray-600 shadow-lg overflow-hidden bg-bottom bg-fixed bg-cover bg-[url('https://hdwallpaperim.com/wp-content/uploads/2017/08/22/413919-planet-Earth-space.jpg')]">
+      <div className="flex flex-col items-center justify-end lg:h-[50%] border-b border-gray-600 shadow-lg overflow-hidden bg-bottom bg-fixed bg-cover bg-[url('https://hdwallpaperim.com/wp-content/uploads/2017/08/22/413919-planet-Earth-space.jpg')]">
         <img
-          className="-mb-10 w-full max-w-[600px]"
+          className="-mb-10 w-full max-w-[512px]"
           src={portrait}
           alt="Like a Marcus ready to be shot into outer space... Space Marcus!"
         ></img>
