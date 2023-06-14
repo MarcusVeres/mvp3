@@ -1,5 +1,7 @@
 import React from "react";
 
+import island from "../assets/island.webp";
+
 import cardinal from "../assets/portfolio/cardinal.jpg";
 import fence from "../assets/portfolio/fence.jpg";
 import flowers from "../assets/portfolio/flowers.jpg";
@@ -26,20 +28,28 @@ const PortfolioGrid = () => {
           Portfolio
         </h1>
       </div> */}
-      <div className="card-zoom md:col-span-2">
+      <a
+        href="http://google.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-zoom md:col-span-2"
+      >
         <div
           className="card-zoom-image"
-          style={{ backgroundImage: `url(${knife})` }}
+          style={{ backgroundImage: `url(${island})` }}
         ></div>
-        <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
-          Case Study I
-        </h3>
-      </div>
+        {/* <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
+          MODELING
+        </h3> */}
+      </a>
       <div className="card-zoom aspect-golden">
         <div
           className="card-zoom-image"
           style={{ backgroundImage: `url(${pine})` }}
         ></div>
+        {/* <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
+          Photo
+        </h3> */}
       </div>
       <div className="card-zoom aspect-golden">
         <div
@@ -94,9 +104,9 @@ const PortfolioGrid = () => {
           className="card-zoom-image"
           style={{ backgroundImage: `url(${knife})` }}
         ></div>
-        <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
+        {/* <h3 className="hidden text-center uppercase text-md md:block md:text-2xl lg:text-3xl card-zoom-text xl:text-4xl">
           Case Study II
-        </h3>
+        </h3> */}
       </div>
       <div className="card-zoom aspect-golden">
         <div
