@@ -12,15 +12,15 @@ const Navigation = () => {
         <li className="w-full h-full text-center">
           <a
             className="block w-full h-full py-4 transition-all duration-500 bg-transparent hover:bg-white hover:text-gray-900"
-            href="cv-landing-tpl.html"
+            href="/"
           >
-            About
+            Home
           </a>
         </li>
         <li className="w-full h-full text-center">
           <a
             className="block w-full h-full py-4 transition-all duration-500 bg-transparent hover:bg-white hover:text-gray-900"
-            href="portfolio.html"
+            href="/portfolio"
           >
             Portfolio
           </a>
@@ -28,7 +28,7 @@ const Navigation = () => {
         <li className="w-full h-full text-center">
           <a
             className="block w-full h-full py-4 transition-all duration-500 bg-transparent hover:bg-white hover:text-gray-900"
-            href="contact.html"
+            href="mailto:marcus.veres@gmail.com?subject=Hello&body=Hi Marcus,"
           >
             Contact
           </a>

@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/mvp3" element={<LandingPage />} />
+        <Route path="/portfolio" element={<WebsiteShowcase />} />
         <Route path="/showcase" element={<WebsiteShowcase />} />
         <Route path="/" element={<LandingPage />} />
       </Routes>
