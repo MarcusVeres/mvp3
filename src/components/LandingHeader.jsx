@@ -18,7 +18,7 @@ const LandingHeader = () => {
           <div className="flex flex-col max-w-lg gap-12 mx-auto lg:w-full lg:max-w-none lg:flex-row rounded-3xl">
             <div className="flex-1 text-base lg:text-lg">
               <h2 className="pb-4 mr-4 text-4xl font-extrabold tracking-tight text-left border-b border-white 2xl:text-6xl xl:text-6xl text-gray-50 border-opacity-20">
-                Hello &#9786;
+                Hello<span className="">&#9786;</span>
               </h2>
               <p className="pt-6">
                 I'm Marcus. I am adaptable, creative, and relentless. I work
