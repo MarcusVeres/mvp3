@@ -1,3 +1,8 @@
+## Quick Tips
+
+- `npm run start` : local testing
+- `npm run build` : upload live
+
 ## TO DO
 
 **Nice-to-Have**

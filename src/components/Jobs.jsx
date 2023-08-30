@@ -254,7 +254,7 @@ const data = [
     Company: "Works of Love",
     End: "Present",
     Keywords: ["HTML", "CSS", "JS", "Chrome", "Go", "C#", "Blender", "Unity"],
-    Start: "2021-06",
+    Start: "2018-06",
     Title: "Director",
   },
 ];
