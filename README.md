@@ -1,7 +1,9 @@
 ## Quick Tips
 
 - `npm run start` : local testing
-- `npm run build` : upload live
+- `npm run deploy` : upload live
+
+**Remember to check (and update) `Settings > Pages > Custom Domain` if it doesn't get automatically updated (in case the `deploy` command overwrites existing custom demain).**
 
 ## TO DO
 
