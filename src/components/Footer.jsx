@@ -4,6 +4,9 @@ import logo from "../assets/logo.png";
 import Socials from "../components/Socials";
 
 const Footer = () => {
+  // Vars
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="flex flex-col items-center pt-6 pb-16 mt-0 overflow-hidden border-t border-white shadow-2xl border-opacity-30">
       {/* <div className="mx-auto -mt-[140px] shadow-2xl h-[100px] w-full shadow-blue-500/50"></div> */}
@@ -21,7 +24,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="px-4 mt-4 text-sm text-center text-white transition-all duration-300 shadow-lg opacity-30 hover:opacity-100">
-        Copyright &copy; 2023 Marcus Arcadius Veres. All rights reserved.
+        Copyright &copy; {currentYear} Marcus Arcadius Veres. All rights
+        reserved.
       </p>
     </footer>
   );
