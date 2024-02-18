@@ -46,7 +46,7 @@ const Navigation = () => {
         <div className="container mx-auto max-w-[1800px] px-8 bg-blue-500x flex flex-row justify-end">
           <div className="block w-24 h-16 transition-opacity duration-700 ease-in-out bg-black border-b border-l border-r border-white rounded-b-full shadow-xl cursor-pointer lg:h-24 lg:w-28 bg-opacity-80 rounded-xl border-opacity-20 opacity-40 hover:opacity-100">
             <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden">
-              <Logo />
+              {/* <Logo /> */}
             </label>
             <Logo />
           </div>

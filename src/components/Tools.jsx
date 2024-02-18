@@ -97,7 +97,7 @@ const Tools = () => (
         key={tool.Title} // ensure that each tool has a unique title
         className={`relative group aspect-square`}
       >
-        <tool.Svg />
+        {/* <tool.Svg /> */}
         <div
           className={`w-full h-full transition-all duration-300 justify-center flex items-center`}
         >
