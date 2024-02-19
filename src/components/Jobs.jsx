@@ -35,9 +35,10 @@ const data = [
   {
     Name: "cummins-and-partners",
     Bullets: [
-      "Made working mock-ups for client proposals.",
-      "Contributed design ideas.",
-      "Assisted clients with web-related programming.",
+      "Developed functional mockup for proposed client project (BMW).",
+      "Generated design, identity, and strategy concepts (Little Caesars).",
+      "Collaborated w/ client teams to implement web apps (Zenbanx).",
+      "Implemented massive corporate website (Clearbridge Mobile).",
     ],
     Company: "Cummins & Partners",
     End: "2015-07",
@@ -75,10 +76,10 @@ const data = [
   {
     Name: "juice-mobile",
     Bullets: [
-      "Built a team-based scorekeeping API in Python (Flask).",
-      "CRUD for participants in a team race.",
-      "Pixel-perfect implementation of client UI design.",
-      "Assigned each runner an NFC bracelet and unique ID.",
+      "Developed an NFC running game for corporate team-building.",
+      "Designed and implemented score- and user-management APIs.",
+      "Integrated NFC technology w/ central digital scoreboard via web.",
+      "Ensured pixel-perfect implementation of client interface design.",
     ],
     Company: "Juice Mobile",
     Keywords: ["Python", "HTML", "Angular JS", "CSS"],
@@ -88,10 +89,10 @@ const data = [
   {
     Name: "juice-mobile-2",
     Bullets: [
-      "Developed interactive mobile ads (Celtra, JS).",
-      "Made a presentation tool for sales and marketing.",
-      "Developed and maintained corporate website. ",
-      "Prototyping (360° AR ads, ice cream delivery, phone-controller).",
+      "Developed mobile ads, browser games, and tracking pixels.",
+      "Produced client-facing presentation tool for sales & marketing.",
+      "Developed, deployed and maintained primary corporate website.",
+      "Prototyped ads (360° AR, ice cream delivery, phone-controller).",
     ],
     Company: "Juice Mobile",
     End: "2017-01",
@@ -103,10 +104,10 @@ const data = [
     Name: "movia",
     BannerAlt: "Truck Banner 3D Render with UI examples on Computer Screen",
     Bullets: [
-      "Integrated beacon-based retargeting for truck ad campaigns.",
-      "Developed business relationships with strategic partners.",
-      "Translated between management, programming & design.",
-      "Designed wireframes, UI and UX for client-facing software.",
+      "Led development of novel beacon-based retargeting solution.",
+      "Developed business relations with third-party data partners.",
+      "Facilitated communication between management & dev team.",
+      "Produced wireframes and UI designs for client-facing software.",
     ],
     Company: "MOVIA Media",
     End: "2022-04",
@@ -136,10 +137,10 @@ const data = [
   {
     Name: "parrot-marketing",
     Bullets: [
-      "Single-page application programming (Angular JS).",
-      "Implemented forms for web applications.",
-      "UI for web-based drawing application.",
-      "Back-end development in Python (Flask) and PHP (Laravel).",
+      "Implemented forms and interfaces for single-page web apps.",
+      "Protyped interface for a web-based desktop publishing apps.",
+      "Developed REST APIs for apps in Python (Flask) & PHP (Laravel).",
+      "Wrote best practices & technical documentation for other devs.",
     ],
     Company: "Parrot Marketing / Hive Digital",
     End: "2014-10",
@@ -159,10 +160,11 @@ const data = [
     BannerAlt:
       "3D render of copy centre, at night, working the night away.. glow outside. making wp sites,",
     Bullets: [
-      "Product and real-estate photography.",
-      "Built promotional websites for small business owners.",
-      "Worked directly with clients and third-party vendors.",
-      "Designed promotional and sales material.",
+      "Produced promotional websites for small-mid sized businesses.",
+      "Designed promotional and sales material using brand guidelines.",
+      "Advised clients on business plans and technology architecture.",
+      "Set up collaboration between clients and third-party vendors.",
+      "Organized photoshoots for product and real-estate photography.",
     ],
     Company: "PrintZone (Longden Solutions)",
     End: "2013-10",
@@ -175,10 +177,10 @@ const data = [
     BannerAlt:
       "MacBook Pro with contact management app, Sencha touch icon on the screen, amazon alexa unit on a desk. post-its on desk :) stocks on monitors in background",
     Bullets: [
-      "Wrote application code for investor relations software.",
-      "Worked on improvements to a stock-tracking feature.",
-      "Prototyped a demo contact management application.",
-      "Prototyped Alexa extension (our team won the 2017 hackathon).",
+      "Contributed customer-facing code for investor relations software.",
+      "Collaborated on improvements to stock-tracking functionality.",
+      "Won internal team hackathon with a prototype Alexa extension.",
+      "Prototyped a contact management application for internal use.",
     ],
     Company: "Q4 Inc",
     End: "2017-03",
@@ -191,9 +193,9 @@ const data = [
     BannerAlt:
       "In-game menu screenshot on old-school 2008 iMac, if I can find screenshot. If not.. use Adobe Flash icon",
     Bullets: [
-      "Data entry for player item database.",
-      "Produced animations and cutscenes.",
-      "Programmed in-game menus.",
+      "Data entry for massive database of items and accessories.",
+      "Produced animations, transitions, and in-game cutscenes.",
+      "Implemented game menus and interfaces with Actionscript.",
     ],
     Company: "Social Game Universe",
     End: "2009-10",
@@ -207,7 +209,8 @@ const data = [
       "2013 Mac desktop monitor with CodeIgniter logo, maybe trackula design? screenshot of UI",
     Bullets: [
       "Added features to an online shopping & inventory system.",
-      "Designed interfaces and ads that matched brand guidelines.",
+      "Designed interfaces and ads consistent with brand guidelines.",
+      "Updated codebase to stay up-to-date with industry standards.",
       "Removed legacy code and performed regression testing.",
     ],
     Company: "Sybaris",
@@ -246,10 +249,11 @@ const data = [
     BannerAlt:
       "3D Render of spin-to-win, monitor w/ chrome logo (extension), sneaky mommies website UI, screenshot from QS",
     Bullets: [
-      "Developed a spin-to-win lead-generation kiosk application.",
-      "Wrote a Chrome extension that helps bloggers with article SEO.",
-      "Developed interfaces for a highly-optimized high-traffic blog.",
-      "Designed and developed interfaces for a desktop PC game.",
+      "Produced lead-generation kiosk applications for exhibitions.",
+      "Developed Chrome extension for bloggers to assist with SEO.",
+      "Implemented user interfaces for a high-traffic blog site.",
+      "Delivered unique desktop game experiences with C# and Unity.",
+      "Managed day-to-day operations for teams of 3-8 developers.",
     ],
     Company: "Works of Love",
     End: "Present",
